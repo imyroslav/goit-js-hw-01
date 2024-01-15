@@ -1,4 +1,12 @@
+const country = prompt("Please enter the country of delivery");
+
+const price = prompt("Please enter price of the order");
+
+const deliveryFee = prompt("Please enter delivery fee");
+
 function getShippingMessage(country, price, deliveryFee) {
-    let totalPrice = price + deliveryFee;
-    console.log(`Shippoing to ${country} will cost ${totalPrice} credits`);
+    const totalPrice = (1*price + 1*deliveryFee);
+    alert(`Shippoing to ${country} will cost ${totalPrice} credits`);
 }
+
+getShippingMessage(country, price, deliveryFee);

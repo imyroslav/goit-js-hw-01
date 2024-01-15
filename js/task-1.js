@@ -1,7 +1,7 @@
 
-const quantity = prompt("Enter quantity of ordered droids");
+const quantity = prompt("Enter quantity of droids ordered");
 
-const pricePerDroid = prompt("Enter droid price");
+const pricePerDroid = prompt("Enter price per droid");
 
 
 function makeTransaction(quantity, pricePerDroid) {

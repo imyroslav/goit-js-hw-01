@@ -1,7 +1,7 @@
 
-const quantity = prompt("кількість замовлених дроїдів");
+const quantity = prompt("Enter please qauntity of ordered droids");
 
-const pricePerDroid = prompt("вартість одного дроїда");
+const pricePerDroid = prompt("Enter please price of the droid");
 
 
 function makeTransaction(quantity, pricePerDroid) {
@@ -9,9 +9,9 @@ function makeTransaction(quantity, pricePerDroid) {
     alert(`You orderded ${quantity} droids worth ${totalPrice} credits! `)
 };
 
-makeTransaction(quantity, pricePerDroid)
+makeTransaction(quantity, pricePerDroid);
 
-// alert(`You orderded ${quantity} droids worth  ${totalPrice} credits! `);
+
 
 
 

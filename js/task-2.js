@@ -1,8 +1,8 @@
-const country = prompt("Please enter the country of delivery");
+const country = prompt("Enter the country of delivery");
 
-const price = prompt("Please enter price of the order");
+const price = prompt("Enter price of the order");
 
-const deliveryFee = prompt("Please enter delivery fee");
+const deliveryFee = prompt("Enter delivery fee");
 
 function getShippingMessage(country, price, deliveryFee) {
     const totalPrice = (1*price + 1*deliveryFee);

@@ -1,8 +1,8 @@
-const content = prompt("Enter content width in px, please");
+const content = prompt("Enter content width in px");
 
-const padding = prompt("Enter padding width in px, please ");
+const padding = prompt("Enter padding width in px");
 
-const border = prompt("Enter border width in px, please");
+const border = prompt("Enter border width in px");
 
 
 function getElementhWidth(content, padding, border) {
